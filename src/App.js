@@ -1,5 +1,5 @@
 import React from 'react';
-import {Routes, Route} from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Landing from "./pages/Landing.jsx"
 import About from "./pages/About.jsx"
@@ -11,16 +11,20 @@ import './App.css';
 
 function App() {
   return (
+    <>
+    <Router>
    <Routes>
    <Route path="/" element={<Layout/>}>
-    <Route path="/Landing" element={<Landing/>}/>
-    <Route path="About" element={<About/>}/>
-    <Route path="Skills" element={<Skills/>}/>
-    <Route path="Projects" element={<Projects/>}/>
-    <Route path="Contact" element={<Contact/>}/>
-    <Route path="Thanks" element={<Thanks/>}/>
+   <Route path="/Landing" element={<Landing/>}/>
+    <Route path="/About" element={<About/>}/>
+    <Route path="/Contact" element={<Contact/>}/>
+    <Route path="/Projects" element={<Projects/>}/>
+    <Route path="/Skills" element={<Skills/>}/>
+    <Route path="/Thanks" element={<Thanks/>}/>
    </Route>
    </Routes>
+   </Router>
+   </>
   );
 }
 
