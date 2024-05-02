@@ -1,7 +1,12 @@
-import React from "react";
+import react from "react";
 
 const Projects = () => {
-  return <div>Projects Page Content</div>;
+  return (
+    <>
+      <h1> My </h1>
+      <h2>projects</h2>
+    </>
+  );
 };
 
 export default Projects;

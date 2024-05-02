@@ -15,12 +15,12 @@ function App() {
     <Router>
    <Routes>
    <Route path="/" element={<Layout/>}>
-   <Route path="/Landing" element={<Landing/>}/>
+   {/* <Route path="/Landing" element={<Landing/>}/> */}
     <Route path="/About" element={<About/>}/>
     <Route path="/Contact" element={<Contact/>}/>
     <Route path="/Projects" element={<Projects/>}/>
     <Route path="/Skills" element={<Skills/>}/>
-    <Route path="/Thanks" element={<Thanks/>}/>
+    {/* <Route path="/Thanks" element={<Thanks/>}/> */}
    </Route>
    </Routes>
    </Router>

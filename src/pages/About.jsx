@@ -1,15 +1,25 @@
-import React from "react";
+import react from "react";
+import Image from "../Assets/Images/about.jpg";
+import Title from "../components/Title/Title";
 
 const About = () => {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta mollitia
-      similique, quasi, nostrum illo aperiam beatae impedit ab est
-      necessitatibus consectetur consequuntur nesciunt neque quod error. Quia
-      magnam voluptatem velit amet laudantium modi numquam, provident eaque
-      consequuntur hic suscipit, minima, repellendus earum incidunt reiciendis
-      at possimus doloribus! Odio, doloribus animi!
-    </div>
+    <>
+      <div className="content">
+        <div>
+          <Title
+            subtitle="Hello"
+            title="I'm Antoine"
+            text="I'm a web developer"
+          />
+          <button>See more</button>
+          <div>
+          <img src={Image}></img>
+          </div>
+        </div>
+        
+      </div>
+    </>
   );
 };
 

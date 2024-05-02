@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Title from "../Title/Title";
 import { Outlet } from "react-router-dom";
 
 const Layout = ({ children }) => {
@@ -8,7 +9,8 @@ const Layout = ({ children }) => {
       <div>
         <Navbar />
       </div>
-      <Outlet/>
+      <Outlet />
+      <Title />
     </>
   );
 };

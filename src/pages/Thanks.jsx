@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-const Thanks = () => {
-  return <div>Thanks Page Content</div>;
-};
+// const Thanks = () => {
+//   return <div>Thanks Page Content</div>;
+// };
 
-export default Thanks;
+// export default Thanks;

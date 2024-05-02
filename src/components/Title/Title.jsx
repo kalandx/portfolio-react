@@ -1,7 +1,13 @@
-// const Title = () => {
-//     return (
-//         <h1>Title</h1>
-//     )
-// }
+import React from "react";
 
-// export default Title
+const Title = ({ title, text, subtitle }) => {
+  return (
+    <>
+    <h2>{subtitle}</h2>
+      <h1>{title}</h1>
+      <p>{text}</p>
+    </>
+  );
+};
+
+export default Title;
